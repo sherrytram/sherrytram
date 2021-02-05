@@ -83,10 +83,12 @@ a.navcopy {
   color: black;
   text-decoration: none;
   margin-left: 30px;
-  margin-top: 10px;
   font-size: 15px;
   padding-top: 20px;
   border-top: 1.5px solid gray;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 a.nav:hover {

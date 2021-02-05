@@ -26,8 +26,8 @@
   }
 
 a.sherry {
-  font-family: "Abril Fatface";
-  font-weight: normal;
+  font-family: "Times New Roman";
+  font-weight: bold;
   margin-left: 30px;
   margin-top: 0px;
   text-decoration: none;
@@ -37,7 +37,7 @@ a.sherry {
 
 
 a.sherry:hover {
-  color: gray;
+  color:white;
 }
 
 h1.welcome {
@@ -48,6 +48,11 @@ h1.welcome {
     font-weight: lighter;
     font-size: 80px;
     text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 45px;
+    border-bottom: 1.5px solid lightgray;
+    
 }
 
 p.welcometext {
@@ -56,7 +61,7 @@ p.welcometext {
     text-align: center;
     word-spacing: 3px;
     letter-spacing: 1px;
-    font-weight: normal;
+    font-weight: bold;
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -71,9 +76,21 @@ a.nav {
   margin-top: 0px;
   font-size: 15px;
 }
+a.navcopy {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-top: 20px;
+  border-top: 1.5px solid gray;
+}
 
 a.nav:hover {
-  color: gray;
+  color:white;
 }
 
 .sidenav {
@@ -98,13 +115,18 @@ a.nav:hover {
 }
 
 .rowtwo {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .section2 {
   margin-left: 260px;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -116,7 +138,7 @@ a.nav:hover {
   font-family: "Open Sans";
   color: black;
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 15px;
   border: 2px solid lightgray;
   background-color: white;

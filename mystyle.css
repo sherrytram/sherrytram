@@ -40,6 +40,8 @@ a.sherry:hover {
   color:white;
 }
 
+
+
 h1.welcome {
     font-family: "Open Sans";
     font-style: italic;
@@ -55,6 +57,9 @@ h1.welcome {
     
 }
 
+div.fadeIn {
+  display: none;
+}
 p.welcometext {
     font-family: "Open Sans";
     font-style: normal;
